@@ -1,7 +1,11 @@
 package com.goda5.kotlin.playground;
 
-val KotlinHelloString: String = "Hello from Kotlin!";
+val KotlinHelloString: String = "Hello from Kotlin!"
 
 fun getHelloStringFromJava(): String {
-    return KotlinHelloString;
+    return KotlinHelloString
+}
+
+fun main(args: Array<String>) {
+    print(getHelloStringFromJava())
 }
